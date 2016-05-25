@@ -81,25 +81,25 @@ int main()
             cin.clear();
             cin.ignore(666, '\n');
             cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-            cout << "\n\nSTACK DATA STRUCTURE:\nstd::stack<int> mystack; \n\nPUSH FUNCTION EXAMPLE\nmystack.push(10); \nmystack.push(20);  \n\nPOP FUNCTION EXAMPLE\nmystack.pop();"
-                 <<"\n\nTOP FUNCTION EXAMPLE\nstd::cout << \"The top is: \" << mystack.top();\nmystack.top()=5; \nstd::cout << \"mystack.top() is\" << mystack.top();\n\nEMPTY FUNCTION EXAMPLE\nstd::cout << \"Is the stack empty: \"\nif (mystack.empty()==false)\n   cout << \"No\";"
-                 <<"\nmystack.pop();\nstd::cout << \"Is the stack empty: \";\nif (mystack.empty()==false)\n   cout << \"No\"<<endl;\nelse\n   cout << \"Yes\"<<endl;"<<endl;
-            std::stack<int> mystack;//Declaring a stack data structure
+            cout << "\n\nSTACK DATA STRUCTURE:\nstack<int> mystack; \n\nPUSH FUNCTION EXAMPLE\nmystack.push(10); \nmystack.push(20);  \n\nPOP FUNCTION EXAMPLE\nmystack.pop();"
+                 <<"\n\nTOP FUNCTION EXAMPLE\ncout << \"The top is: \" << mystack.top();\nmystack.top()=5; \ncout << \"mystack.top() is\" << mystack.top();\n\nEMPTY FUNCTION EXAMPLE\ncout << \"Is the stack empty: \"\nif (mystack.empty()==false)\n   cout << \"No\";"
+                 <<"\nmystack.pop();\ncout << \"Is the stack empty: \";\nif (mystack.empty()==false)\n   cout << \"No\"<<endl;\nelse\n   cout << \"Yes\"<<endl;"<<endl;
+            stack<int> mystack;//Declaring a stack data structure
             //Stack push examples
             mystack.push(10);
             mystack.push(20);
             //Stack pop example
             mystack.pop();
             //Stack top example and use
-            std::cout << "\n\nThe top is: " << mystack.top() << '\n';
+            cout << "\n\nThe top is: " << mystack.top() << '\n';
             mystack.top()=5;
-            std::cout << "The top is: " << mystack.top() << '\n';
+            cout << "The top is: " << mystack.top() << '\n';
             //Stack empty examples
-            std::cout << "Is the stack empty? ";
+            cout << "Is the stack empty? ";
             if (mystack.empty()==false)
                 cout << "No"<<endl;
             mystack.pop();
-            std::cout << "Now is the stack empty? ";
+            cout << "Now is the stack empty? ";
             if (mystack.empty()==false)
                 cout << "No"<<endl;
             else
